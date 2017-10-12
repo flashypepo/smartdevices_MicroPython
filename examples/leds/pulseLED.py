@@ -12,7 +12,7 @@ import time, math
 # =2: Huzzah ESP8266 blue LED, =0: Huzzah ESP8266 red LED
 # =5: WeMOS_Lolin32
 # =2: ESP32-Lolin_OLED
-_LEDPIN = 2
+_LEDPIN = 15 # extern LED
 
 print('Pulse LED...')
 led = machine.PWM(machine.Pin(_LEDPIN), freq=1000)
@@ -25,5 +25,9 @@ def pulse(l, t):
 ###################################################################
 # Loop code goes inside the loop here, this is called repeatedly: #
 ###################################################################
-while True:
-    pulse(led, 100)
+try:
+    while True:
+        pulse(led, 100)
+except:
+    led.duty(0)
+    led.deinit() #release pin

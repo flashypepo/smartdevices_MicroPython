@@ -13,19 +13,33 @@
 import machine
 import time
 print('Blinking LED...')
-# Huzzah: pin#2 blue led, pin#0 red led
-#LED_PIN = 0 # red LED
-LED_PIN = 2 # blue LED
-led = machine.Pin(LED_PIN, machine.Pin.OUT) #builtin LED Feather Huzzah
 
-led.value(1) # init led OFF
-time.sleep(0.1) # wait
+# -------- configuration LED pin ------------------
+# Huzzah built-in LED pin=2 blue led, pin=0 red led
+# extern LED: pin=15 red led
+#LED_PIN = 0 # red LED
+#LED_PIN = 2 # blue LED
+LED_PIN = 15 # exter red LED
+
+# create led-object
+led = machine.Pin(LED_PIN, machine.Pin.OUT)
+
+# sleep delay
+# DELAY = 2 #0.5
 
 while True:
     ###################################################################
     # Loop code goes inside the loop here, this is called repeatedly: #
     ###################################################################
-    led.value(0) # on
+    #'''
+    led.value(0)
     time.sleep(0.5)
-    led.value(1) # off
+    led.value(1)
     time.sleep(0.5)
+    #'''
+
+    ''' alternatiev loop
+    while True:
+        led.value( not led.value() )
+        time.sleep(DELAY)
+    #'''
