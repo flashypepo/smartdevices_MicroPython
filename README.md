@@ -1,7 +1,6 @@
 # smartdevices
 
-Updated voor studiejaar 2018-2019:
-
+<b>Updated voor studiejaar 2018-2019:</b>
 Microcontroller: Pycom LoPy4 met expansion board</br>
 Micropython: Pycom micropython</br>
 Getting Started: <a href="https://docs.pycom.io/chapter/gettingstarted/">Getting Started documentatie</a></br>
