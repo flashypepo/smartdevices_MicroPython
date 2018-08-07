@@ -2,9 +2,9 @@
 
 <b>Updated voor studiejaar 2018-2019:</b></br>
 <ul>
-<li>Microcontroller: Pycom LoPy4 met expansion board</li>
-<li>Micropython: Pycom micropython</li>
-Getting Started: <a href="https://docs.pycom.io/chapter/gettingstarted/">Getting Started documentatie</a></li>
+    <li>Microcontroller: Pycom LoPy4 met expansion board</li>
+    <li>Micropython: Pycom micropython</li>
+    <li>Getting Started: <a href="https://docs.pycom.io/chapter/gettingstarted/">Getting Started documentatie</a></li>
 </ul>
 
 <b>Archief:</b></br>
