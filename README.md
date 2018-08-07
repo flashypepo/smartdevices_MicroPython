@@ -1,9 +1,11 @@
 # smartdevices
 
-<b>Updated voor studiejaar 2018-2019:</b>
-Microcontroller: Pycom LoPy4 met expansion board</br>
-Micropython: Pycom micropython</br>
-Getting Started: <a href="https://docs.pycom.io/chapter/gettingstarted/">Getting Started documentatie</a></br>
+<b>Updated voor studiejaar 2018-2019:</b></br>
+<ul>
+<li>Microcontroller: Pycom LoPy4 met expansion board</li>
+<li>Micropython: Pycom micropython</li>
+Getting Started: <a href="https://docs.pycom.io/chapter/gettingstarted/">Getting Started documentatie</a></li>
+</ul>
 
 <b>Archief:</b></br>
 studiejaar 2017-2018: in subfolder Feather_Huzzah_ESP8266</br>
